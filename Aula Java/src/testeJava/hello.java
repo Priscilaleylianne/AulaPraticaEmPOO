@@ -22,8 +22,10 @@ public class hello {
 		System.out.println("Sexo: " + sexo);
 		System.out.println("Temperatura: " + temperatura);
 		System.out.println("Ar condicionado: " + arCondicionado);
+		
+		
 		System.out.println("-----------------------------------------");
-		double i = 10; //
+		double i = 20; //
 		System.out.println("Operadores Aritmeticos e Atribuicoes");
 		System.out.println("Exemplos: ");
 		System.out.println("i = " + i);
@@ -42,6 +44,7 @@ public class hello {
 		i--;
 		System.out.println("i--          | i = " + i);
 		System.out.println("-----------------------------------------");
+		
 		System.out.println("");
 		System.out.println("ESTRUTURAS DE CONTROLE");
 		System.out.println("");

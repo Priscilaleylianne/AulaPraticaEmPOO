@@ -1,15 +1,8 @@
-/**
- * 
- */
 package exercicio;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-/**
- * @author PRISCILA
- *
- */
 public class calculadoraMedia {
 
 	public static void main(String[] args) {
@@ -42,7 +35,7 @@ public class calculadoraMedia {
 			System.out.println("Media: " + formatador.format(media));
 			
 			// estrutura de controle condicional
-			if (media < 2) {
+			if (media < 4) {
 				System.out.println("REPROVADO");
 			} else if (media >= 5) {
 				System.out.println("APROVADO");

@@ -2,10 +2,13 @@ package poo;
 
 public class Carro {
 	//Atributos
-	int ano;
+	String tipo;
 	String cor;
+	String placa;
+	int numPortas;
+	int ano;
 	
-	//Métodos, ligar, desligar e acelerar
+	//Métodos, ligar, desligar, acelerar e frear
 	void ligar() {
 		System.out.println("ON..............");
 	}
@@ -16,5 +19,9 @@ public class Carro {
 	
 	void acelerar() {
 		System.out.println("vrummmm..............");
+	}
+	
+	void frear() {
+		System.out.println("ximmmm..............");
 	}
 }

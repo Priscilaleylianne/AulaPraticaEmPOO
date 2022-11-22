@@ -10,10 +10,10 @@ public class minhaClasse {
 		double d = 2.3456;
 		boolean b = false;
 		
-		System.out.println(i);
-		System.out.println(c);
-		System.out.println(f);
-		System.out.println(d);
-		System.out.println(b);
+		System.out.println("Inteiro: " + i);
+		System.out.println("Caracter: " + c);
+		System.out.println("Ponto Flutuante: " + f);
+		System.out.println("Ponto Flutuante: " + d);
+		System.out.println("Operador Logico: " + b);
 	}
 }
